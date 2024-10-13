@@ -1,0 +1,77 @@
+# if(Math.abs(left - right) > 1) { result is at class level
+            result = false;
+        }
+#  return  1+ Math.max(right, left);
+# if(root1 == null) return root2
+# in-order traversal produces values in sorted order only in BST Not In General
+# Integer prev = null;
+#  if(root1 == null || root2 == null || root1.val != root2.val) flow of this
+# use 2 counters
+#  result = Math.max(left+right+node.val, result); return node.val + Math.max(left,right);
+# for right view we can write helper(node.right) before helper(node.left)
+# if(level == list.size()) {
+               list.add(node.val);}
+#
+# i+1 vs i++
+# [1,2] This is also BST.
+# Math.max(0,helper(node.left))
+# 32-bit signed integer.
+# how to mark position on nodes use 2 * position for left and 2 * position +1[position is also parentPosition]
+# currenWidth = position - leftMostPosition.get(depth) + 1;
+
+# you can use 2 counters in class level also
+# Level order (Need to check the Algorithm of this)
+
+
+// in the middle of find it's diameter not return while recursion process
+        diameter = Math.max(left+right, diameter);
+        return 1 + Math.max(left, right);
+// list.get(depth).add(0,node.val); if depth% 2 == 0
+
+// BFS is a level order in a binary tree [we need queue to store]
+// Tree we get in BFS is BFS-Spanning Tree
+// cross-edges, you can start BFS from any vertex you like
+// Rule in BFS is when you are selecting any vertex in BFS you must visit all it's Adjacent vertex's
+
+// Depth first search is like a pre-order
+// for DfS we use stack
+// DFS-Spanning Tree
+// time-complexity is O(n)
+// To use it when answer lies near the root node.
+// To use when you are asked to search by level.
+
+// 1) Full binary tree either node has 0 or 2 children
+// 2) Complete BT : All Levels are completely filled except the last level.
+        the last level has all the node as left as possible
+// 3) Perfect BT: All leaf nodes are at same level.
+// 4) Balanced BT: height of tree at a max of log(N)
+// 5) Degenerate tree: every node has single children
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OutSide the List Questions
+
+https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/
+https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/description/
+https://leetcode.com/problems/sum-of-distances-in-tree/description/
+
+# SAME PATTERN
+https://leetcode.com/problems/sum-of-distances-in-tree/description/
+https://leetcode.com/problems/binary-tree-maximum-path-sum/description/
+https://leetcode.com/problems/longest-univalue-path/description/
+https://leetcode.com/problems/time-needed-to-inform-all-employees/
+https://leetcode.com/problems/sum-root-to-leaf-numbers/
+https://leetcode.com/problems/count-nodes-with-the-highest-score/description/
+https://leetcode.com/problems/path-sum/
+

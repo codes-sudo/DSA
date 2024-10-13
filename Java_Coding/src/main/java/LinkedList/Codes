@@ -1,0 +1,22 @@
+
+# Learn Tortoise Algorithm
+# start total from 0 if temp.next != null otherwise total = 1 and temp!= null
+# check for all conditions [] [0]
+# check whether mid is even or odd using fast.next != null
+#  if(fast != null) {
+              slow = slow.next;
+          }
+# Learn modulus
+# for rotation k % n;
+# use fast alone without slow
+# newHead.next = stack.pop();
+              newHead = newHead.next; newHead.next = null
+# create 2 diff lists
+# while can replace if
+# use dummy for edge cases
+# temp.next = list1 != null ? list1 : list2;
+# temp.next = list1;
+                  list1 = list1.next; else same for list2
+                  add in dummy node but using temp.next = list1; without creating new ListNode
+# if(head == null || head.next == null || left == right) return head;
+

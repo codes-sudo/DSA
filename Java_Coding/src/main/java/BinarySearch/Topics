@@ -1,0 +1,7 @@
+# https://research.google/blog/extra-extra-read-all-about-it-nearly-all-binary-searches-and-mergesorts-are-broken/
+# high =  r*c-1
+# matrix[mid/c][mid%c]  find intution ?
+# flatten 2D into 1D array
+# ans = mid because mid can be the answer
+# if(nums[mid] == nums[low] && nums[mid] == nums[high]) {low++;high--;continue;}
+# for first and last seperate condition in starting
